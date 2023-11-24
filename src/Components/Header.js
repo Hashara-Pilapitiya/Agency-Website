@@ -46,22 +46,22 @@ const Header = () => {
 
                 <a href=''className='text-2xl font-semibold flex items-center space-x-2'>
                 <img src={logo} alt='' className='w-20 inline-block items-center rounded-full' />
-                <span className='text-navyBlue'>PromoPluse</span>
+                <span className='text-steelBlue'>PromoPluse</span>
                 </a>
 
                 {/* navitems for larage devices */}
                 <ul className='md:flex space-x-12 hidden'>
                     {
-                        navItems.map( ({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base text-naturalGrey hover:text-navyBlue font-bold cursor-pointer'>{link}</Link> )
+                        navItems.map( ({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base text-naturalGrey hover:text-steelBlue font-bold cursor-pointer'>{link}</Link> )
                     }
                 </ul>
 
                 {/* buttons for larage devices */}
                 <div className='space-x-12 hidden lg:flex items-center'>
 
-                    <a href='/' className='hidden lg:flex items-center text-navyBlue hover:text-silver font-bold'>Login</a>
+                    <a href='/' className='hidden lg:flex items-center text-steelBlue hover:text-silver font-bold'>Login</a>
 
-                    <button className='bg-navyBlue text-white py-2 px-4 transition-all duration-300 rounded hover:bg-silver font-bold'>Register</button>
+                    <button className='bg-steelBlue text-white py-2 px-4 transition-all duration-300 rounded hover:bg-silver font-bold'>Register</button>
 
                 </div> 
 
@@ -69,7 +69,7 @@ const Header = () => {
                 <div className='md:hidden'>
                     <button 
                     onClick={toggleMenu}
-                    className='text-naturalGrey focus:outline-none focus:text-navyBlue'>
+                    className='text-naturalGrey focus:outline-none focus:text-steelBlue'>
                         {
                             isMenuOpen ? (<FaCircleXmark className='h-6 w-6 ' />) : (<FaAlignJustify className='h-6 w-6' />)
                         }
@@ -79,9 +79,9 @@ const Header = () => {
             </div>
 
             {/* nav items for mobile devices */}
-            <div className={`space-y-4 px-4 mt-16 py-7 bg-navyBlue ${ isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
+            <div className={`space-y-4 px-4 mt-16 py-7 bg-steelBlue ${ isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`}>
                 {
-                    navItems.map( ({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base text-naturalGrey hover:text-white font-bold cursor-pointer'>{link}</Link> )
+                    navItems.map( ({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base text-silver hover:text-white font-bold cursor-pointer'>{link}</Link> )
                 }
             </div>
 
