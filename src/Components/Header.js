@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
-        <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border-b bg-white duration-300" : ""}`}>
+        <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300" : ""}`}>
             <div className='flex justify-between items-center text-base gap-8'>
 
                 <a href=''className='text-2xl font-semibold flex items-center space-x-2'>
@@ -61,7 +61,7 @@ const Header = () => {
 
                     <a href='/' className='hidden lg:flex items-center text-steelBlue hover:text-silver font-bold'>Login</a>
 
-                    <button className='bg-steelBlue text-white py-2 px-4 transition-all duration-300 rounded hover:bg-silver font-bold'>Register</button>
+                    <button className='bg-steelBlue text-black py-2 px-4 transition-all duration-300 rounded hover:bg-silver font-bold'>Register</button>
 
                 </div> 
 

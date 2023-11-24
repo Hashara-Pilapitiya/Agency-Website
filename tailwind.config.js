@@ -11,6 +11,8 @@ module.exports = {
         'silver': '#b0b0b0',
         'paperWhite': '#f8f8ff',
         'white': '#ffffff',
+        'lightGrey': '#d3d3d3',
+        'lightSilver': '#d8d8d8'
     }
   },
 },
