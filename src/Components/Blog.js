@@ -7,7 +7,7 @@ const Blog = () => {
 
     {id: 1,
     title: 'Creating streamlined processes with OneRen',
-    image: ''},
+    image: '/src/Assets/blogimg01.avif'},
 
     {id: 2,
     title: 'What are your safeguarding responsibilities and how can you manage them?',
@@ -20,8 +20,8 @@ const Blog = () => {
   ]
 
   return (
-    <div>
-        <div className='px-4 mx-auto my-12 max-w-screen-2xl lg:px-14'>
+    
+        <div className='px-4 mx-auto my-12 max-w-screen-2xl lg:px-14' id='faq'>
             <div className='mx-auto text-center md:w-1/2'>
                 <h2 className='mb-4 text-4xl font-semibold text-silver tracking-wide'>The unseen of spending three years ath Pixelgrade</h2>
                 <p className='mx-auto mb-8 text-sm md:w-3/4 text-silver tracking-wider'>
@@ -35,7 +35,7 @@ const Blog = () => {
                   blogs.map( blog => <div key={blog.id} className='mx-auto relative mb-12 cursor-pointer'>
                     <img src={blog.image} alt='' className='hover:scale-95 transition-all cursor-pointer'/>
                     
-                  <div className='text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto'>
+                    <div className='text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto'>
                       <h3 className='mb-3 text-silver font-semibold tracking-wide'>{blog.title}</h3>
 
                       <div className='flex justify-center gap-8'>
@@ -65,7 +65,7 @@ const Blog = () => {
         
 
    </div>
-   </div>
+  
 
             
 

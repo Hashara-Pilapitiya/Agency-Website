@@ -6,6 +6,7 @@ import Products from './Components/Products';
 import Services from './Components/Services';
 import Blog from './Components/Blog';
 import NewsLetter from './Components/NewsLetter';
+import End from './Components/End';
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <About />
       <Products />
       <Blog /> 
-      <NewsLetter /> 
+      <NewsLetter />
+      <End /> 
       
 
     </div>

@@ -52,7 +52,7 @@ const Header = () => {
                 {/* navitems for larage devices */}
                 <ul className='md:flex space-x-12 hidden'>
                     {
-                        navItems.map( ({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block text-base text-naturalGrey hover:text-steelBlue font-bold cursor-pointer'>{link}</Link> )
+                        navItems.map( ({link, path}) => <Link to={path} spy={true} smooth={true} offset={-100} key={path} className='block cursor-pointer text-base text-naturalGrey hover:text-steelBlue font-bold cursor-pointer'>{link}</Link> )
                     }
                 </ul>
 

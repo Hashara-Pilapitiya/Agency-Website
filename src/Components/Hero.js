@@ -7,7 +7,7 @@ import heroImg04 from '../Assets/heroimg04.png';
 
 const Hero = () => {
   return (
-    <div className="bg-lightGrey">
+    <div className="bg-lightGrey" id='home'>
         
         <div className="h-screen min-h-screen px-4 mx-auto lg:px-14 max-w-screen-2xl">
             <Carousel className='w-full mx-auto'>
