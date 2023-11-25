@@ -7,6 +7,7 @@ import Services from './Components/Services';
 import Blog from './Components/Blog';
 import NewsLetter from './Components/NewsLetter';
 
+
 function App() {
   return (
     <div>
@@ -17,7 +18,8 @@ function App() {
       <About />
       <Products />
       <Blog /> 
-      <NewsLetter />   
+      <NewsLetter /> 
+      
 
     </div>
   );
