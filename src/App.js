@@ -4,6 +4,8 @@ import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Products from './Components/Products';
 import Services from './Components/Services';
+import Blog from './Components/Blog';
+import NewsLetter from './Components/NewsLetter';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Hero />
       <Services />
       <About />
-      <Products />  
+      <Products />
+      <Blog /> 
+      <NewsLetter />   
 
     </div>
   );
