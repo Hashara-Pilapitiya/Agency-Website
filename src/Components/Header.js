@@ -1,4 +1,4 @@
-import React, { useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../Assets/logo.png';
 import { Link } from 'react-scroll';
 import { FaAlignJustify } from "react-icons/fa6";
