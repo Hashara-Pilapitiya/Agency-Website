@@ -23,7 +23,7 @@ const Blog = () => {
     
         <div className='px-4 mx-auto my-12 max-w-screen-2xl lg:px-14' id='faq'>
             <div className='mx-auto text-center md:w-1/2'>
-                <h2 className='mb-4 text-4xl font-semibold text-silver tracking-wide'>The unseen of spending three years ath Pixelgrade</h2>
+                <h2 className='mb-4 text-4xl font-semibold tracking-wide'>The unseen of spending three years ath Pixelgrade</h2>
                 <p className='mx-auto mb-8 text-sm md:w-3/4 text-silver tracking-wider'>
                     Unleash your creativity with our product designed to empower your artistic endeavors. From intuitive features to unmatched performance, this tool is a game-changer for creative professionals seeking to push the boundaries of their craft.
                 </p>
@@ -36,10 +36,10 @@ const Blog = () => {
                     <img src={blog.image} alt='' className='hover:scale-95 transition-all cursor-pointer'/>
                     
                     <div className='text-center px-4 py-8 bg-white shadow-lg rounded-md md:w-3/4 mx-auto'>
-                      <h3 className='mb-3 text-silver font-semibold tracking-wide'>{blog.title}</h3>
+                      <h3 className='mb-3 text-blue-500 font-semibold tracking-wide'>{blog.title}</h3>
 
                       <div className='flex justify-center gap-8'>
-                            <a href='/' className='font-bold text-steelBlue hover:text-black hover:tracking-wide'>Read More{" "}
+                            <a href='/' className='font-bold text-silver hover:text-black hover:tracking-wide'>Read More{" "}
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
                                 width="17"

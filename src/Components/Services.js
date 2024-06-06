@@ -33,20 +33,20 @@ const Services = () => {
   return (
     <div className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto' id='service'>
         <div className='text-center my-2'>
-            <h2 className='text-4xl text-silver font-semibold mb-2'>Our Clients</h2>
+            <h2 className='text-4xl font-semibold mb-2'>Our Clients</h2>
             <p className='text-silver tracking-wide'>
                 We have worked with a wide variety of clients, ranging from non-profits to large corporations.
             </p>
 
             {/* company logos */}
             <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-                <span className='text-steelBlue text-5xl'><PiDiscordLogoFill /></span>
-                <span className='text-steelBlue text-5xl'><PiDribbbleLogoFill /></span> 
-                <span className='text-steelBlue text-5xl'><PiRedditLogoFill /></span>
-                <span className='text-steelBlue text-5xl'><PiSlackLogoFill /></span>
-                <span className='text-steelBlue text-5xl'><PiNyTimesLogoBold /> </span>
-                <span className='text-steelBlue text-5xl'><IoLogoVimeo /></span>
-                <span className='text-steelBlue text-5xl'><IoLogoIonitron /></span>
+                <span className='text-blue-500 text-5xl'><PiDiscordLogoFill /></span>
+                <span className='text-blue-500 text-5xl'><PiDribbbleLogoFill /></span> 
+                <span className='text-blue-500 text-5xl'><PiRedditLogoFill /></span>
+                <span className='text-blue-500 text-5xl'><PiSlackLogoFill /></span>
+                <span className='text-blue-500 text-5xl'><PiNyTimesLogoBold /> </span>
+                <span className='text-blue-500 text-5xl'><IoLogoVimeo /></span>
+                <span className='text-blue-500 text-5xl'><IoLogoIonitron /></span>
             </div>
 
             {/* service cards */}
@@ -64,11 +64,11 @@ const Services = () => {
 
                         <div>
 
-                            <div className='bg-[#dfe7f2] text-steelBlue mb-4 h-18 w-16 mx-auto rounded-tl-3xl rounded-br-3xl'>
+                            <div className='bg-blue-200 text-blue-500 mb-4 h-18 w-16 mx-auto rounded-tl-3xl rounded-br-3xl'>
                                 <span className='text-6xl'>{service.icon}</span>
                             </div>
 
-                            <h4 className='text-2xl font-bold text-silver mb-2 px-2 tracking-wide'>{service.title}</h4>
+                            <h4 className='text-2xl font-bold mb-2 px-2 tracking-wide'>{service.title}</h4>
 
                             <p className='text-sm text-silver tracking-wider'>{service.description}</p>
 

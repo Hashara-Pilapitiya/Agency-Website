@@ -32,11 +32,11 @@ const About = () => {
         </div>
 
         {/* company stats */}
-        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto py-16 bg-lightGrey'>
+        <div className='px-4 lg:px-14 max-w-screen-2xl mx-auto py-16 bg-gradient-to-r from-purple-500 to-pink-500'>
             <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
                 <div className='md:w-1/2'>
 
-                    <h2 className='mx-20 text-4xl text-black mb-4 md:w-4/5 tracking-wide font-bold'>Embarking on a <span className='text-steelBlue'>journey of innovation and excellence.</span></h2>
+                    <h2 className='mx-20 text-4xl text-black mb-4 md:w-4/5 tracking-wide font-bold'>Embarking on a <span className='text-blue-800'>journey of innovation and excellence.</span></h2>
 
                     <p className='mx-20 md:w-3/4 text-white mb-8 tracking-wider'>
                         Our story begins with a vision to redefine industry standards. 
@@ -48,7 +48,7 @@ const About = () => {
 
                     <div className='space-y-8'>
                         <div className='flex items-center gap-4'>
-                            <span className='text-4xl text-steelBlue'><HiOutlineUserGroup /></span>
+                            <span className='text-4xl text-blue-300'><HiOutlineUserGroup /></span>
                             <div>
                                 <h4 className='text-2xl text-black font-semibold'>2,345,678</h4>
                                 <p>Members</p>
@@ -56,7 +56,7 @@ const About = () => {
                         </div>
 
                         <div className='flex items-center gap-4'>
-                            <span className='text-4xl text-steelBlue'><LuClub /></span>
+                            <span className='text-4xl text-blue-300'><LuClub /></span>
                             <div>
                                 <h4 className='text-2xl text-black font-semibold'>24,680</h4>
                                 <p>Clubs</p>
@@ -66,7 +66,7 @@ const About = () => {
 
                     <div className='space-y-8'>
                         <div className='flex items-center gap-4'>
-                            <span className='text-4xl text-steelBlue'><MdOutlineEmojiEvents /></span>
+                            <span className='text-4xl text-blue-300'><MdOutlineEmojiEvents /></span>
                             <div>
                                 <h4 className='text-2xl text-black font-semibold'>3,365,478</h4>
                                 <p>Event Bookings</p>
@@ -74,7 +74,7 @@ const About = () => {
                         </div>
 
                         <div className='flex items-center gap-4'>
-                            <span className='text-4xl text-steelBlue'><MdOutlinePayments /></span>
+                            <span className='text-4xl text-blue-300'><MdOutlinePayments /></span>
                             <div>
                                 <h4 className='text-2xl text-black font-semibold'>1,926,678</h4>
                                 <p>Payments</p>

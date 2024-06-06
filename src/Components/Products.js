@@ -37,7 +37,7 @@ const Products = () => {
 </div>
 
 {/* company stats */}
-<div className='px-4 lg:px-14 max-w-screen-2xl mx-auto py-16 bg-lightGrey'>
+<div className='px-4 lg:px-14 max-w-screen-2xl mx-auto py-16 bg-gradient-to-r from-sky-500 to-indigo-500"'>
     <div className='flex flex-col md:flex-row justify-between items-center gap-8'>
         <div className='md:w-1/3'>
             <img src={productImg02} alt='' className='rounded-full'/>
@@ -45,20 +45,21 @@ const Products = () => {
 
         <div className='md:w-2/3 mx-auto'>
             <div>
-                <p className='md:-4/5 text-sm text-white tracking-wide mb-8 leading-7'>
+                <p className='md:-4/5 text-sm text-blue-900 tracking-wide mb-8 leading-7'>
                 Immerse yourself in the perfect blend of style and substance. Our product combines sleek, user-friendly design with robust functionality. Experience unparalleled performance and discover a new standard of excellence.Your success is our priority. Our customizable product is crafted to adapt to the unique needs of your business. From scalability to user interface, every detail is meticulously designed to ensure a perfect fit for your requirements.
                 </p>
                 <h5 className='text-steelBlue text-xl font-semibold mb-2'>John Stilan</h5>
                 <p className='text-base text-black mb-8'>British Dragon Boat Association</p>
                 <div>
                     <div className='flex items-center gap-8 flex-wrap'>
-                        <span className='text-steelBlue text-2xl cursor-pointer'><PiDiscordLogoFill /></span>
-                        <span className='text-steelBlue text-2xl cursor-pointer'><PiDribbbleLogoFill /></span> 
-                        <span className='text-steelBlue text-2xl cursor-pointer'><PiRedditLogoFill /></span>
-                        <span className='text-steelBlue text-2xl cursor-pointer'><PiSlackLogoFill /></span>
-                        <span className='text-steelBlue text-2xl cursor-pointer'><PiNyTimesLogoBold /> </span>
-                        <span className='text-steelBlue text-2xl cursor-pointer'><IoLogoVimeo /></span>
-                        <span className='text-steelBlue text-2xl cursor-pointer'><IoLogoIonitron /></span>
+                        <span className='text-blue-900 text-3xl cursor-pointer'><PiDiscordLogoFill /></span>
+                        <span className='text-blue-900 text-3xl
+                        cursor-pointer'><PiDribbbleLogoFill /></span> 
+                        <span className='text-blue-900 text-3xl cursor-pointer'><PiRedditLogoFill /></span>
+                        <span className='text-blue-900 text-3xl cursor-pointer'><PiSlackLogoFill /></span>
+                        <span className='text-blue-900 text-3xl cursor-pointer'><PiNyTimesLogoBold /> </span>
+                        <span className='text-blue-900 text-3xl cursor-pointer'><IoLogoVimeo /></span>
+                        <span className='text-blue-900 text-3xl cursor-pointer'><IoLogoIonitron /></span>
                         <div className='flex items-center gap-8'>
                             <a href='/' className='font-bold text-steelBlue hover:text-black hover:tracking-wide'>Meet all customers{" "}
                             <svg 
