@@ -21,7 +21,7 @@ const Blog = () => {
 
   return (
     
-        <div className='px-4 mx-auto my-12 max-w-screen-2xl lg:px-14' id='faq'>
+        <div className='px-4 mx-auto my-12 max-w-screen-2xl lg:px-14'>
             <div className='mx-auto text-center md:w-1/2'>
                 <h2 className='mb-4 text-4xl font-semibold tracking-wide'>The unseen of spending three years ath Pixelgrade</h2>
                 <p className='mx-auto mb-8 text-sm md:w-3/4 text-silver tracking-wider'>
