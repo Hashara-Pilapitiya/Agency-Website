@@ -40,13 +40,13 @@ const Header = () => {
     ];
 
   return (
-    <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0'>
+    <header className='w-full bg-white md:bg-transparent fixed top-0 left-0 right-0' style={{background: "white"}}>
         <nav className={`py-4 lg:px-14 px-4 ${isSticky ? "sticky top-0 left-0 right-0 border bg-white duration-300" : ""}`}>
             <div className='flex justify-between items-center text-base gap-8'>
 
-                <a href=''className='text-2xl font-semibold flex items-center space-x-2'>
-                <img src={logo} alt='' className='w-20 inline-block items-center rounded-full' />
-                <span className='text-steelBlue'>PromoPluse</span>
+                <a href=''className='text-2xl font-semibold flex items-center'>
+                    <img src={logo} alt='' className='w-20 inline-block items-center rounded-full' />
+                    <span className='text-steelBlue'>PromoPluse</span>
                 </a>
 
                 {/* navitems for larage devices */}

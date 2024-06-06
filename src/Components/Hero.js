@@ -1,13 +1,13 @@
 import React from 'react';
 import { Carousel } from 'flowbite-react';
-import heroImg01 from '../Assets/heroimg01.png';
-import heroImg02 from '../Assets/heroimg02.png';
-import heroImg03 from '../Assets/heroimg03.png';
-import heroImg04 from '../Assets/heroimg04.png';
+import heroImg01 from '../Assets/3.png';
+import heroImg02 from '../Assets/1.png';
+import heroImg03 from '../Assets/4.png';
+import heroImg04 from '../Assets/5.png';
 
 const Hero = () => {
   return (
-    <div className="bg-lightGrey" id='home'>
+    <div className="" id='home' style={{background: "lightblue"}}>
         
         <div className="h-screen min-h-screen px-4 mx-auto lg:px-14 max-w-screen-2xl">
             <Carousel className='w-full mx-auto'>
