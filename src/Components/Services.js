@@ -60,17 +60,17 @@ const Services = () => {
             {/* cards */}
             <div className='mt-14 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-12'>
                 {
-                    services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-steelBlue transition-all duration-300 flex items-center justify-center h-full'>
+                    services.map(service => <div key={service.id} className='px-4 py-8 text-center md:w-[300px] mx-auto md:h-80 rounded-md shadow cursor-pointer hover:-translate-y-5 hover:border-b-4 hover:border-blue-500 transition-all duration-300 flex items-center justify-center h-full'>
 
                         <div>
 
-                            <div className='bg-blue-200 text-blue-500 mb-4 h-18 w-16 mx-auto rounded-tl-3xl rounded-br-3xl'>
+                            <div className=' text-blue-500 mb-4 h-18 w-16 mx-auto rounded-tl-3xl rounded-br-3xl'>
                                 <span className='text-6xl'>{service.icon}</span>
                             </div>
 
                             <h4 className='text-2xl font-bold mb-2 px-2 tracking-wide'>{service.title}</h4>
 
-                            <p className='text-sm text-silver tracking-wider'>{service.description}</p>
+                            <p className='text-sm text-purple-500 text-semiblod tracking-wider'>{service.description}</p>
 
                         </div>
 
