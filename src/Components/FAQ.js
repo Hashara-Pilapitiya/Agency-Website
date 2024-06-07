@@ -14,6 +14,8 @@ const FAQ = () => {
 
         <Accordian title='How experienced is your team with React?' answer='Our team consists of seasoned React developers with years of experience in building high-quality web and mobile applications. We have successfully delivered numerous projects across various industries, ensuring best practices and up-to-date knowledge in the React ecosystem.' />
 
+        <Accordian title=' What is the typical timeline for a React project?' answer='The timeline for a React project depends on its complexity and scope. A small to medium-sized project typically takes between 4 to 12 weeks, while larger, more complex projects may take several months. We provide a detailed project plan and timeline during the initial consultation.' />
+
         <Accordian title='How much does it cost to build a React application?' answer='The cost of building a React application varies based on the projects complexity, features, and timeline. We provide customized quotes after understanding your specific requirements. Contact us for a free consultation and detailed estimate.' />
     </div>
     </>
