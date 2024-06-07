@@ -3,8 +3,13 @@ import logo from '../Assets/logo.png';
 import { Link } from 'react-scroll';
 import { FaAlignJustify } from "react-icons/fa6";
 import { FaCircleXmark } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+
+    const navigate = useNavigate();
+
+    
 
     const [isMenuOpen, setIsMenuOpen] = React.useState(false);
     const [isSticky, setIsSticky] = React.useState(false);
@@ -59,9 +64,9 @@ const Header = () => {
                 {/* buttons for larage devices */}
                 <div className='space-x-12 hidden lg:flex items-center'>
 
-                    <a href='/' className='hidden lg:flex items-center text-steelBlue hover:text-silver font-bold'>Login</a>
+                    <a href='' className='hidden lg:flex items-center text-steelBlue hover:text-silver font-bold' onClick={() => navigate("/signin")}>Login</a>
 
-                    <button className='bg-steelBlue text-black py-2 px-4 transition-all duration-300 rounded hover:bg-silver font-bold'>Register</button>
+                    <button className='bg-steelBlue text-black py-2 px-4 transition-all duration-300 rounded hover:bg-silver font-bold' onClick={() => navigate("/register")}>Register</button>
 
                 </div> 
 

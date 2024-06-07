@@ -1,28 +1,26 @@
 import './App.css';
-import About from './Components/About';
-import Header from './Components/Header';
-import Hero from './Components/Hero';
-import Products from './Components/Products';
-import Services from './Components/Services';
-import Blog from './Components/Blog';
-import NewsLetter from './Components/NewsLetter';
-import End from './Components/End';
-import FAQ from './Components/FAQ';
+import Home from './Pages/Home';
+import SignIn from './Pages/SignIn';
+import Register from './Pages/Register';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
-  return (
+
+    return (
     <div>
       
-      <Header />
-      <Hero />
-      <Services />
-      <About />
-      <Products />
-      <Blog /> 
-      <NewsLetter />
-      <FAQ />
-      <End /> 
+      <BrowserRouter>
+
+          <Routes>
+      
+            <Route path='/' element={<Home/>}/>
+            <Route path='/signin' element={<SignIn/>}/>
+            <Route path='/register' element={<Register/>}/>
+
+          </Routes>
+
+      </BrowserRouter>
       
 
     </div>
